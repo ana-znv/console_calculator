@@ -16,11 +16,7 @@ public class Main {
         System.out.print("Enter the second value: ");
         int secondValue = intSc.nextInt();
 
-        calculate(firstValue, secondValue, operation);
-    }
-
-    public static void calculate(int firstValue, int secondValue, String operation) {
-        int result = 0;
+        int result;
         switch (operation) {
             case "+":
                 result = firstValue + secondValue;
